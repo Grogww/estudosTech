@@ -32,6 +32,7 @@ public class folhaPagamento {
         System.out.println(String.format("Desconto impostos: %,.2f ", (salBruto*0.3)));
         System.out.println(String.format("Salário Líquido do Funcionário: %,.2f", salBruto-(salBruto*0.3)));
 
+        input.close();
 
     }
 
